@@ -1,0 +1,117 @@
+.problemContainer {
+  display: flex;
+  width: 100%;
+}
+
+.problem-header {
+  padding-right: 10px;
+}
+
+.problem-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.problemTab {
+  overflow-y: auto;
+  height: 510px;
+}
+
+.tab-margin div[role="tab"] {
+  margin-right: 0;
+}
+
+.cardPlus {
+  width: 100%;
+  border-radius: 10px;
+  border: 0 !important;
+}
+
+.cardPlus > div[class="ant-card-head"] {
+  padding: 0;
+  min-height: 30px;
+  border-bottom: 0;
+}
+
+.cardPlus > div[class="ant-card-body"] {
+  padding: 0;
+  line-height: 25px;
+}
+
+ul li.ant-select-dropdown-menu-item {
+  font-size: 12px;
+}
+
+.backwardIcon {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 260px 0px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.ace_scrollbar-v::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.ace_scrollbar-v::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+.ace_scrollbar-v::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.editorFooter {
+  margin-top: 15px;
+}
+
+.codeSize {
+  margin-top: 10px;
+}
+
+.animation {
+  transition: 0.3s linear;
+}
+
+.iconButton {
+  width: 30px;
+  padding: 5px !important;
+  margin-left: 10px;
+}
+
+.codeLanguage {
+  width: 100px;
+  border-radius: 5px;
+  height: 30px;
+}
+
+div[class="ant-tabs-extra-content"] {
+  line-height: 45px;
+}
+
+label[class="text-success"] {
+  color: rgb(39, 194, 76);
+}
+
+label[class="text-danger"] {
+  color: #f05050;
+}
+
+@media screen and (max-width: 767px) {
+  .icon,
+  .editor-right {
+    display: none;
+  }
+
+  .problemInfo {
+    width: 100% !important;
+  }
+
+  .ant-tabs-tab[aria-selected='false'] {
+    display: none;
+  }
+}
